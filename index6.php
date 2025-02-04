@@ -6,21 +6,33 @@ if ($conn->connect_errno) {
     exit();
 }
 
-if (isset($_GET['id'])) {
-    $id = $_GET['id'];
-    $sql = 'SELECT * FROM rooms WHERE id =' . $id;
-    $result = $conn->query($sql);
-    $room = $result->fetch_assoc();
-
-    echo '<pre>';
-    echo '<ul>';
-    echo '<li> ID: ' . $room['id'] . '</li>';
-    echo '<li> PRICE: ' . $room['price'] . '</li>';
-    echo '<li> NAME: ' . $room['name'] . '</li>';
-    echo '<li> BED TYPE: ' . $room['bed_type'] . '</li>';
-    echo '<li> STATUS: ' . $room['status'] . '</li>';
-    echo '</ul>';
-    echo '</pre>';
-} else {
-    echo 'Not param';
+if (!isset($_GET['id'])) {
+    echo 'Error: No se recibió un ID.';
+    exit();
 }
+
+$id = $_GET['id'];
+
+$stmt = $conn->prepare("SELECT * FROM rooms WHERE id = ?");
+$stmt->bind_param("i", $id);
+$stmt->execute();
+$result = $stmt->get_result();
+$room = $result->fetch_assoc();
+
+if (!$room) {
+    echo 'No se encontró una habitación con ID: ' . ($id);
+    exit();
+}
+
+echo '<pre>';
+echo '<ul>';
+echo '<li> ID: ' . ($room['id']) . '</li>';
+echo '<li> PRICE: ' . ($room['price']) . '</li>';
+echo '<li> NAME: ' . ($room['name']) . '</li>';
+echo '<li> BED TYPE: ' . ($room['bed_type']) . '</li>';
+echo '<li> STATUS: ' . ($room['status']) . '</li>';
+echo '</ul>';
+echo '</pre>';
+
+$stmt->close();
+$conn->close();
