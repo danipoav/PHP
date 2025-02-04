@@ -10,7 +10,7 @@
         "name": "Deluxe A - 123454"
     },
     {
-        "id": "1",
+        "id": "2",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "PO Box 90067",
         "price": 384,
@@ -20,7 +20,7 @@
         "name": "Deluxe B - 67890"
     },
     {
-        "id": "1",
+        "id": "3",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Room 532",
         "price": 851,
@@ -30,7 +30,7 @@
         "name": "Deluxe C - 11223"
     },
     {
-        "id": "1",
+        "id": "4",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Room 757",
         "price": 807,
@@ -40,7 +40,7 @@
         "name": "Deluxe D - 44556"
     },
     {
-        "id": "1",
+        "id": "5",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Room 521",
         "price": 252,
@@ -50,7 +50,7 @@
         "name": "Deluxe E - 78901"
     },
     {
-        "id": "1",
+        "id": "6",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "PO Box 47666",
         "price": 826,
@@ -60,7 +60,7 @@
         "name": "Deluxe A - 23456"
     },
     {
-        "id": "1",
+        "id": "7",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Apt 1579",
         "price": 235,
@@ -70,7 +70,7 @@
         "name": "Deluxe B - 34567"
     },
     {
-        "id": "1",
+        "id": "8",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "PO Box 20698",
         "price": 510,
@@ -80,7 +80,7 @@
         "name": "Deluxe C - 45678"
     },
     {
-        "id": "1",
+        "id": "9",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Suite 49",
         "price": 739,
@@ -90,7 +90,7 @@
         "name": "Deluxe D - 56789"
     },
     {
-        "id": "1",
+        "id": "10",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Room 1816",
         "price": 862,
@@ -100,7 +100,7 @@
         "name": "Deluxe E - 67890"
     },
     {
-        "id": "1",
+        "id": "11",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Room 1250",
         "price": 382,
@@ -110,7 +110,7 @@
         "name": "Deluxe A - 78901"
     },
     {
-        "id": "1",
+        "id": "12",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "PO Box 18255",
         "price": 640,
@@ -120,7 +120,7 @@
         "name": "Deluxe B - 89012"
     },
     {
-        "id": "1",
+        "id": "13",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Room 989",
         "price": 735,
@@ -130,7 +130,7 @@
         "name": "Deluxe C - 90123"
     },
     {
-        "id": "1",
+        "id": "14",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "5th Floor",
         "price": 839,
@@ -140,7 +140,7 @@
         "name": "Deluxe D - 12345"
     },
     {
-        "id": "1",
+        "id": "15",
         "photo": "https://randomuser.me/api/portraits/men/1.jpg",
         "room_number": "Suite 99",
         "price": 256,
