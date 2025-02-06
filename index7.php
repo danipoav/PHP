@@ -50,7 +50,7 @@ if ($search) {
                 <td><?= htmlspecialchars($habitacion['id']) ?></td>
                 <td><?= htmlspecialchars($habitacion['name']) ?></td>
                 <td><?= htmlspecialchars($habitacion['price']) ?> €</td>
-                <td><?= htmlspecialchars($habitacion['status']) ?> personas</td>
+                <td><?= htmlspecialchars($habitacion['status']) ?></td>
             </tr>
         <?php endwhile; ?>
     </table>
